@@ -15,7 +15,7 @@ import logo from "../assets/new-vatika-logo-crop.png";
 import menuStarters from "../assets/menu3.jpeg";
 import menuChinese from "../assets/menu1.jpeg";
 import menuFastFood from "../assets/menu2.jpeg";
-import bgTexture from "../assets/background.jpg";
+import bgTexture from "../assets/background.png";
 
 const menus = [
   { title: "Momos & More", subtitle: "Soups • Cold Beverages • Mocktails • Shakes", image: menuStarters },
@@ -441,10 +441,10 @@ export default function PremiumMenuGallery() {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           className="flex flex-col items-center text-center mb-10 sm:mb-14"
         >
-          <img src={logo} alt="New Vatika Café" className="h-16 sm:h-20 w-auto object-contain mb-4" />
+          <img src={logo} alt="New Vatika Café" className="h-50 sm:h-20 w-auto object-contain mb-4" />
           <p
-            className="text-[11px] sm:text-xs tracking-[0.4em] uppercase mb-3"
-            style={{ color: COLORS.terracotta, fontFamily: "Poppins, sans-serif", fontWeight: 600 }}
+            className="text-[40px] sm:text-l tracking-[0.4em] text-shadow-amber-400 uppercase mb-3"
+            style={{ color: COLORS.cream, fontFamily: "Poppins, sans-serif", fontWeight: 600 }}
           >
             The Menu Card
           </p>
@@ -471,7 +471,7 @@ export default function PremiumMenuGallery() {
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.35, delay: 0.05 }}
               className="mt-3 text-sm sm:text-base tracking-wide"
-              style={{ color: COLORS.terracotta, fontFamily: "Montserrat, sans-serif" }}
+              style={{ color: COLORS.cream, fontFamily: "Montserrat, sans-serif" }}
             >
               {current.subtitle}
             </motion.p>
