@@ -27,7 +27,7 @@ const menus = [
 const COLORS = {
   ink: "#201B21", // signboard backdrop black
   terracotta: "#974933", // signboard board colour
-  gold: "#F0A613", // logo utensils + "Menu" script
+  gold: "#33312c", // logo utensils + "Menu" script
   yellow: "#FFC801", // sunburst backdrop
   cream: "#FEF7EF", // menu-card paper tone
   creamDeep: "#F5E9DA",
@@ -443,7 +443,7 @@ export default function PremiumMenuGallery() {
         >
           <img src={logo} alt="New Vatika Café" className="h-50 sm:h-20 w-auto object-contain mb-4" />
           <p
-            className="text-[40px] sm:text-l tracking-[0.4em] text-shadow-amber-400 uppercase mb-3"
+            className="text-[40px] sm:text-l tracking-[0.4em] uppercase mb-3"
             style={{ color: COLORS.cream, fontFamily: "Poppins, sans-serif", fontWeight: 600 }}
           >
             The Menu Card
